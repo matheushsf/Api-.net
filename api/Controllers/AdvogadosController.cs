@@ -22,6 +22,7 @@ public class AdvogadosController : ApiController
         return Ok(advogado);
     }
 
+
     [HttpPost]
     public IHttpActionResult Post([FromBody] Advogado advogado)
     {

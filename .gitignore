@@ -1,170 +1,183 @@
-# Visual Studio
 .vs/
+
 *.user
+
 *.suo
+
 *.userosscache
+
 *.sln.docstates
 
-# Build Results
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Tt]est[Rr]esult*/
-[Rr]elease/
 [Dd]ebug/
-*.vspscc
-*.vssscc
 
-# NuGet
-*.nupkg
-# The packages folder can be ignored because of Package Restore
-**/[Pp]ackages/*
-# except build/, which is used as an MSBuild target.
-!**/[Pp]ackages/build/
-# Uncomment if necessary however generally it will be regenerated when needed
-#!**/[Pp]ackages/repositories.config
+[Rr]elease/
 
-# Entity Framework
+x64/
+
+x86/
+
+build/
+
+bld/
+
+[Bb]in/
+
+[Oo]bj/
+
+!packages/build/
+
+[Tt]est[Rr]esult*
+
+[Bb]uild[Ll]og.*
+
+*.VisualState.xml
+
+TestResult.xml
+
 *.edmx.diagram
-*.edmx.sql
-*.edmx.cs
 
-# SQL Server files
+*.edmx.sql
+
+.edmx.
+
 *.mdf
+
 *.ldf
 
-# Resharper
 _ReSharper*/
-*.ReSharper
-*.DotSettings.user
 
-# TeamCity
+*.[Rr]e[Ss]harper
+
 _TeamCity*
 
-# DotCover
 *.dotCover
 
-# NCrunch
-_NCrunch_*
-.*crunch*
+.ncrunch
 
-# DocProject files
-*.DocProject
-*.DocProject.user
+.crunch.local.xml
 
-# StyleCop
-StyleCopReport.xml
+[Ee]xpress/
 
-# Files built by Visual Studio
-*_i.c
-*_p.c
-*_i.h
-*.ilk
-*.meta
-*.obj
-*.pch
-*.pdb
-*.pgc
-*.pgd
-*.rsp
-*.sbr
-*.tlb
-*.tli
-*.tlh
-*.tmp
-*.tmp_proj
-*.log
-*.vspscc
-*.vssscc
-.builds
-*.pidb
-*.svclog
-*.scc
+DocProject/buildhelp/
 
-# Visual C++ cache files
-ipch/
-*.aps
-*.ncb
-*.opendb
-*.opensdf
-*.sdf
-*.cachefile
+DocProject/Help/*.HxT
 
-# Visual Studio profiler
-*.psess
-*.vsp
-*.vspx
-*.sap
+DocProject/Help/*.HxC
 
-# TFS 2012 Local Workspace
-$tf/
+DocProject/Help/*.HHP
 
-# Guidance Automation Toolkit
-*.gpState
+DocProject/Help/Html2
 
-# CodeRush
-.cr/
+*/site/
 
-# Python Tools for Visual Studio (PTVS)
-__pycache__/
+*/exported_templates/
 
-# Node.js Tools for Visual Studio (NTVS)
-node_modules/
+_*/.docfx/build/
 
-# Visual Studio 6 build log
 *.plg
 
-# Visual Studio 6 workspace options file
 *.opt
 
-# Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
-*.vbw
+*/.HTMLClient/GeneratedArtifacts
 
-# Visual Studio LightSwitch build output
-*.HTMLClient/GeneratedArtifacts
-*.DesktopClient/GeneratedArtifacts
-*.DesktopClient/ModelManifest.xml
-*.Server/GeneratedArtifacts
-*.Server/ModelManifest.xml
+*/.DesktopClient/GeneratedArtifacts
 
-# Paket dependency manager
+*/.DesktopClient/ModelManifest.xml
+
+*/.Server/GeneratedArtifacts
+
+*/.Server/ModelManifest.xml
+
+PvtExtensions
+
 .paket/paket.exe
+
 paket-files/
 
-# FAKE - F# Make
 .fake/
 
-# GhostDoc
-*.GhostDoc.xml
+ASALocalRun/
 
-# Node.js Tools for Visual Studio
-.ntvs_analysis.dat
+[Bb]ackup*/
 
-# Visual Studio 6
-*.plg
-*.vbp
-*.vbw
-*.vbg
-*.res
+*.[Cc]ache
 
-# Windows Installer files from build outputs
-*.cab
-*.msi
-*.msm
-*.msp
+*.bak
 
-# JetBrains Rider
-.idea/
+*.swp
 
-# CodeRush
-.cr/
+*~.nib
 
-# Coverity Analysis
-.coverity/
+*.tmp
 
-# NDepend
-.ndproj
-.nd
+*.temp
 
-# RIA/Silverlight projects
-Generated_Code/
+*.pidb
+
+*.booproj
+
+*.svd
+
+*.pdb
+
+*.opendb
+
+*.v12.suo
+
+*.DS_Store
+
+*.DS_Store?
+
+*.AppleDouble
+
+*.LSOverride
+
+Icon?
+
+._*
+
+.Spotlight-V100
+
+.Trashes
+
+*.dSYM
+
+*.ipa
+
+*.app
+
+*.apk
+
+*.ap_
+
+*.lib
+
+*.a
+
+*.la
+
+*.lo
+
+*.lai
+
+*.class
+
+*.jar
+
+*.war
+
+*.ear
+
+*.swf
+
+*.swc
+
+*.d
+
+*.ds_store
+
+*.swp
+
+*.swo
+
+*~
