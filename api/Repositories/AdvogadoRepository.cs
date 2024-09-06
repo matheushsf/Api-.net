@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Data.Entity;
+using System.Runtime.Remoting.Contexts;
 
 public class AdvogadoRepository
 {
@@ -18,7 +19,18 @@ public class AdvogadoRepository
 
     public void Update(Advogado advogado)
     {
-        _context.Entry(advogado).State = EntityState.Modified;
+        var existingEntity = _context.Advogados.Find(advogado.Id);
+
+        if (existingEntity != null)
+        {
+            // Atualize os campos da entidade existente com os valores da entidade fornecida
+            _context.Entry(existingEntity).CurrentValues.SetValues(advogado);
+        }
+        else
+        {
+            _context.Advogados.Add(advogado);
+        }
+
         _context.SaveChanges();
     }
 
